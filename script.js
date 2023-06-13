@@ -1,5 +1,5 @@
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
-let key = 0;
+let key = '';
 const generateKey = (a, characters) => {
   for (let i = 0; i < a; i++) {
     key += characters[Math.floor(Math.random() * characters.length)];
